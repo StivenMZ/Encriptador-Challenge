@@ -1,0 +1,30 @@
+.icono{
+    display: flex;
+}
+
+.icono-imagen{
+    display: flex;
+}
+
+.seccion-mensaje{
+    display: flex;
+}
+
+.encabezado{
+    display: flex;
+}
+
+#resultado{
+    flex-grow: 4;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    left: 70%;
+    width: 27%;
+    align-items: center;
+    height: 70%;
+}
+
+#munieco{
+    flex-grow: 2;
+}

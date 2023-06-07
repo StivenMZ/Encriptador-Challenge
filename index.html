@@ -1,0 +1,44 @@
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Challenge 1 ONE</title>
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/index.css">
+    <link rel="stylesheet" href="./css/flexbox.css">
+</head>
+<body>
+    <div class="icono">
+    <img src="./img/logo.png" alt="Icono Alura" class="icono-imagen">
+    </div>
+
+    <header class="encabezado">
+    <div class="secccion-mensaje">
+        <textarea name="mensaje" cols="70" rows="10"  placeholder="Ingrese el texto aquí" id="text-area"></textarea>
+    </div>
+    </header>
+
+    <section id="resultado">
+        <div id="munieco">
+        <img src="./img/Muñeco.png" alt="Muñeco" id="muneco">
+        </div>
+        <p id="p-res1">Ningún mensaje fue encontrado</p>
+        <p id="p-res2">Ingresa el texto que desees encriptar o desencriptar.</p>
+    </section>
+
+    <section class="botones-seccion">
+        <p class="texto-botones"><img src="/img/warning.png" alt="warning" id="warning">Solo letras minúsculas sin acentos</p>
+        <div class="botones">
+            <button id="btn-encriptar"><p class="btn-encriptar-texto">Encriptar</p></button>
+            <button id="btn-desencriptar" > <p class="btn-desencriptar-texto">Desencriptar</p></button>
+        </div>
+
+    </section>
+
+
+
+    <script src="/js/index.js"></script>
+</body>
+</html>
